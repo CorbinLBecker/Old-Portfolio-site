@@ -1,0 +1,226 @@
+
+#swoosh{
+	    -webkit-transition: width 100s; /* For Safari 3.1 to 6.0 */
+		transition: width 100s;
+}
+
+#swoosh:hover {
+		width: 35%;
+	-webkit-transition-delay: width 1s; /* For Safari 3.1 to 6.0 */
+		transition-delay: width 1s;
+		
+}
+
+/* nav */
+navbar{
+}
+
+
+
+body{
+	position: relative;	
+}
+
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-style: 400;
+	margin-top: 5%;
+	
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-position: center top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: white;
+    size: 100%;
+   	background-image: url(../img/sure.gif);
+
+    
+}
+h2{
+	margin-left: 6%;
+	margin-top: 10%;
+	font-family: 'Space Mono', monospace;
+
+}
+h3{
+		font-family: 'Raleway', sans-serif;
+	   	font-weight: 900;
+	   	text-align: center;
+	   	padding-top: 10%;
+	   	
+}
+
+.lead{
+	font-family: 'Space Mono', monospace;
+
+}
+.display-4{
+	   	font-family: 'Raleway', sans-serif;
+	   	font-weight: 900;
+}
+
+@media (max-width: 576px ){
+	.jumbotron{
+			background-image: url(../img/sure.gif);	
+	}}
+
+
+@media (min-width: 576px){
+    .navbar li {
+        margin-left : .25em;
+        margin-right : .25em;
+    }
+}
+
+	
+.col {
+}
+.container{
+	padding-top: 10%;
+	padding-bottom: 25%;
+
+
+}
+.containerP {
+	padding-top: 15%;
+	padding-bottom: 30%;
+	padding-left: 12%;
+}
+/*
+.center-block {
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.container2 {
+	padding-top: 10%;
+	padding-bottom: 12%;
+}
+.container3 {
+	padding-top: 10%;
+	padding-bottom: 12%;
+
+}
+.container1 {
+	padding-top: 10%;
+	padding-bottom: 12%;
+
+}
+.container4 {
+	padding-top: 10%;
+	padding-bottom: 12%;
+
+}
+*/
+
+
+/*  Portfolio Area*/
+
+
+figure {
+    height: 6em;
+    margin: 1.5em;
+    width: 12em;
+    -webkit-transform: perspective(500);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+}
+figure:hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(3em);
+}
+#Portfolpic {
+    background-color: #222;
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+    display: block;
+    height: 100%;
+    -webkit-transition: .5s;
+}
+figure:hover #Portfolpic {
+    box-shadow: none;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -webkit-transition: .5s;
+}
+figure:hover figcaption {
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
+
+/* footer
+	 */
+
+
+
+/*
+
+#gmail {
+		margin-top: 30px;
+		-webkit-box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+		-moz-box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+		box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+}
+
+#linkdyn {
+			-webkit-box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+		-moz-box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+		box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+}
+#napstar{
+			-webkit-box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+		-moz-box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+		box-shadow: 3px 9px 55px -7px rgba(0,0,0,0.75);
+}
+*/
+
+
+.footer {
+  position:  absolute;
+  bottom: -60px;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.gmail{
+display: inline-block;
+padding-top: 3%;;
+
+}
+
+.linkdyn {
+display: inline-block;
+
+}
+
+.napstar {
+display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media break area! */
+/* try and get the icons to display one at a time. 
+	@include media-breakpoint-up(sm) {
+  .some-class {
+    display: block;
+  }
+}
+*/
